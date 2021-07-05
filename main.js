@@ -405,4 +405,5 @@ onClick('ex-zoom-out', function () {
       duration: 2000,
       
     });
+})
 
