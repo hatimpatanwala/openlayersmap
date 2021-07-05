@@ -398,5 +398,11 @@ map.on('pointermove', function (evt) {
 map.on('click', function (evt) {
   displayFeatureInfo(evt.pixel);
 });
-
+ 
+onClick('ex-zoom-out', function () {
+    firstview.animate({
+      zoom:3,
+      duration: 2000,
+      
+    });
 
