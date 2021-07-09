@@ -65,8 +65,11 @@ var firstview = new ol.View({
 
 
 var mainlayer = new ol.layer.Tile({
-  source: new ol.source.OSM()
+  source: new ol.source.OSM({
+    attributions: "6Simplex Task - Hatim Patanwala"
+  })
 })
+
 
 
 
